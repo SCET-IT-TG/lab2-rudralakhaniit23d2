@@ -12,28 +12,28 @@ db.employees.insertMany([
   },
   {
     _id : 2,
-    name: "Ana",
+    name: "Anita",
     department: "HR",
-    salary: 58000,
-    age: 38
+    salary: 28000,
+    age: 24
   },
   {
     _id : 3,
-    name: "Satish",
+    name: "Suresh",
     department: "Sales",
-    salary: 65000,
+    salary: 45000,
     age: 29
   },
   {
     _id : 4,
-    name: "Pranjal",
+    name: "Priya",
     department: "IT",
     salary: 75000,
     age: 27
   },
   {
     _id : 5,
-    name: "Kena",
+    name: "Kiran",
     department: "HR",
     salary: 52000,
     age: 35
@@ -74,4 +74,3 @@ db.employees.find({ age: { $lte: 25 } });
 db.employees.find({
   salary: { $gte: 40000, $lte: 80000 }
 });
-
